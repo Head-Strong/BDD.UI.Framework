@@ -10,7 +10,7 @@ namespace BaseUIBDD.Common
     public static class CommonPage
     {
         private static IWait<IWebDriver> _wait;
-        private const int TimeinSecond = 20;
+        private const int TimeinSecond = 30;
 
         private static char[] _restrictedCharacters = { '.', '/', '$', '@', '*' };
 
